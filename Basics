@@ -1,0 +1,28 @@
+///While Loop
+<html>
+<script>
+
+var counter = 0;
+while (counter < 5) {
+    
+    alert("Counter is " + counter);
+    counter++
+}
+</script>
+</html>
+
+
+///For Loop
+<html>
+<script>
+
+for(var count=0; count<=5; count++);
+{
+    alert("Run loop for " + count + " times.");
+}
+
+</script>
+</html>
+
+
+///Guess The Number
