@@ -1,3 +1,18 @@
+///For Loop
+<html>
+<script>
+
+for(var count=0; count<=5; count++);
+{
+    alert("Run loop for " + count + " times.");
+}
+
+</script>
+</html>
+
+
+
+
 ///While Loop
 <html>
 <script>
@@ -12,17 +27,48 @@ while (counter < 5) {
 </html>
 
 
-///For Loop
+///If Else Loop
+
 <html>
-<script>
-
-for(var count=0; count<=5; count++);
-{
-    alert("Run loop for " + count + " times.");
-}
-
-</script>
+	Conditional Statements
 </html>
+
+<script>
+	var number = 7;
+	var guess = prompt("Enter a number between 1 and 10:");
+	
+	if (guess == number)
+	{
+		alert("That is correct!");
+	}
+	else
+	{
+		alert("That is wrong!");
+	}
+</script>
+
+
+
 
 
 ///Guess The Number
+<html>
+    Guess the Number!
+<script>
+    alert("You have 10 tries. Guess a number between 1 and 10.");
+	var number = 7;
+	var guess = prompt("Guess a number between 1 and 10.");
+    
+	for (i=0; 1<10; i++) {
+	    if (guess == number)
+	        {
+		        alert("That is correct!");
+                break;
+	        }
+	    else
+	        {
+		        guess = prompt("That is incorrect. Please try Again.");
+	        }
+    }
+</script> 
+</html>
